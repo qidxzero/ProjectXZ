@@ -3,21 +3,24 @@
     'name': "Xtest_module",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Short (1 phrase/line) Module created for Development testing """,
 
     'description': """
-        Long description of module's purpose
+        This module has been setup for the following purposes:
+        -understand that basic functionalities of odoo
+        -gradually increment module creation
+        -Create and develope Apps for diferent clients
+
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "xzero alan",
+    'website': "http://www.xetechs.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
-    'category': 'Uncategorized',
-    'version': '0.1',
+    'category': 'Test',
+    'version': '0.01',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
